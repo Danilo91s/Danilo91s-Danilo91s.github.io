@@ -1,205 +1,117 @@
-<!doctype html>
-<html lang="en">
-  <head>
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Mia Attività Professionale</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-primary text-white text-center py-3">
+        <div class="container">
+            <h1 class="display-4">La Mia Attività</h1>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand text-white" href="#">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link text-white" href="#servizi">Servizi</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#chi-siamo">Chi Siamo</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#contatti">Contatti</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
 
-    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <!-- Hero Section -->
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1 class="jumbotron-heading">Benvenuti nella Mia Attività</h1>
+            <p class="lead text-muted">Offriamo servizi di alta qualità per soddisfare le vostre esigenze.</p>
+        </div>
+    </section>
 
-    <title>My awesome App!</title>
-      
-    <style type="text/css">
-      
-        
-        body {
-            
-            position:relative;
-        }
-      
-         .jumbotron {
-              
-              background-image: url("https://static1.bergfex.com/images/downsized/ee/02a08d09b5e720ee_1050787b6e8b1b6f.jpg");
-            background-size: cover;
-              text-align: center;
-              margin-top: 50px;
-            
-          }
-        
-        .jumbotron h1 {
-            
-            font-size:450%;
-            float:none;
-            
-        }
-        
-       
-        
-        .input-group{
-            
-            margin:0 auto;
-        }
-        
-       #footer {
-              
-              background-color: #7CBBFF;
-              padding-top: 20px;
-              margin-top: 20px;
-              text-align: center;
-                 padding-bottom: 0px;
-        height:300px}
-        
-         #appSummary {
-              
-              text-align: center;
-              margin-top:50px;
-              margin-bottom: 50px;
-            }
-        
-        
-        #appStoreIcon{
-            
-            width:10%
-        }
-                 
-             
-               
-    </style>
-      
-  </head>
-    
-  <body data-spy="scroll" data-target="#navbar">
-      
-      
-        <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-          <a class="navbar-brand" href="#">MyApp</a>
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item ">
-              <a class="nav-link" href="#jumbotron">home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">about</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#footer">Download the App</a>
-            </li>
+    <!-- Servizi Section -->
+    <section id="servizi" class="py-5">
+        <div class="container">
+            <h2 class="text-center">I Nostri Servizi</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Servizio 1</h5>
+                            <p class="card-text">Descrizione del servizio 1.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Servizio 2</h5>
+                            <p class="card-text">Descrizione del servizio 2.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Servizio 3</h5>
+                            <p class="card-text">Descrizione del servizio 3.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-          </ul>
+    <!-- Chi Siamo Section -->
+    <section id="chi-siamo" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Chi Siamo</h2>
+            <p class="text-center">Breve descrizione della tua attività e del tuo team.</p>
+        </div>
+    </section>
 
-            <form class="form-inline ">
-
-            <input class="form-control mr-sm-2" type="email" placeholder="Email" >
-
-            <input class="form-control mr-sm-2" type="password" placeholder="Password" >
-
-            <button class="btn btn-success my-2 my-sm-0" type="submit">Login</button>
-
+    <!-- Form di Contatto Section -->
+    <section id="contatti" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Contattaci</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" class="form-control" id="name" placeholder="Il tuo nome">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="La tua email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Messaggio</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Il tuo messaggio"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Invia</button>
             </form>
-        </nav>
-        <div data-spy="scroll" data-target="#navbar-example2" data-offset="60">
-
-
-        <div class="jumbotron jumbotron-fluid" id="jumbotron">
-              <h1 class="display-4 font-weight-normal">My Awesome App!</h1>
-              <p class="lead">This is why YOU should download this fantastic app!</p>
-              <hr class="my-4">
-              <p>Want to know more? Join our mailing list!</p>
-              <form class="form-inline ">
-
-                   <div class="input-group ">
-                <div class="input-group-prepend">
-                  <div class="input-group-text">@</div>
-                </div>
-                    <input class="form-control mr-sm-2" type="email" placeholder="Email" >
-
-                <button class=" btn btn-primary my-2 my-sm-0" type="submit">Sign Up!</button>
-                </div>
-            </form>
-
-
-
         </div>
-    
-        <div id="container">
-            
-            
-        <div id="appSummary">
-          
-            <h1>Why This App Is Awesome</h1>
-            
-            <p class="lead">Summary, once again, of your app's awesomeness</p>
-          
-          </div>
-    
-    
-        </div>
-            
-         <div class="container" id="about">
-    <div class="row">
-        <div class="col-md-4 col-xs-6">
-            <div class="card h-100">
-                <img class="card-img-top img-fluid" src="https://farm7.staticflickr.com/6211/6229865985_0c165a100c_z.jpg" alt="Card image cap">
-                <div class="card-block">
-                    <h4 class="card-title">Card title</h4>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4 col-xs-6">
-            <div class="card h-100">
-                <img class="card-img-top img-fluid" src="https://farm7.staticflickr.com/6211/6229865985_0c165a100c_z.jpg" alt="Card image cap">
-                <div class="card-block">
-                    <h4 class="card-title">Card title</h4>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4 col-xs-6">
-            <div class="card h-100">
-                <img class="card-img-top img-fluid" src="https://farm7.staticflickr.com/6211/6229865985_0c165a100c_z.jpg" alt="Card image cap">
-                <div class="card-block">
-                    <h4 class="card-title">Card title</h4>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-            </div>
-        </div>
-             </div>
-               
-                
-            
-            
-            
-            
-          
-            </div>
-            
-            <div id="footer">
-            
-            
-            <h2>Download the app!</h2>
-            
-            <p class="lead">Really, why should I download this app??</p>
-            
-            <p><a href=""><img id="appStoreIcon" src="https://www.isport360.com/wp-content/uploads/2017/01/appstore-icon-mobile-retina.png"></a></p>
-            
-            
-            </div>
-  
-</div>
-      
-      
-    
+    </section>
 
-    
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-      
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-      
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-      
-  </body>
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 La Mia Attività. Tutti i diritti riservati ingegneria.</p>
+            <p>
+                <a href="#" class="text-white">Privacy Policy 2024</a> |
+                <a href="#" class="text-white">Termini di servizio</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
 </html>
