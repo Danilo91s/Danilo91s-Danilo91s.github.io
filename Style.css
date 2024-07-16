@@ -1,0 +1,44 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header .navbar-brand {
+    font-size: 1.5rem;
+}
+
+.jumbotron {
+    background: url('path/to/your/image.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 150px 0;
+}
+
+.jumbotron-heading {
+    font-size: 2.5rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+#chi-siamo {
+    padding: 50px 0;
+}
+
+#contatti .form-control {
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #343a40;
+}
+
+footer a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
