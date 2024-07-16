@@ -1,21 +1,205 @@
-<html>
-
-    <head>
-        <title> my first web page</title>
-    </head>
-    <body>
+<!doctype html>
+<html lang="en">
+  <head>
     
- <p><b> ciao ciao</b> </p>
-        <p> <strong> hello</strong></p>
-        <p> here some thext <br> with a line <i>breack</i></p>
-        <p> <ins> certo certo</ins></p>
-                <p> ok<sup> certo certo</sup>ok</p>
-        <p> ok<sub> certo certo</sub>ok</p>
- <p> ok<del> certo certo</del>ok</p>
-        <hr>
-    </body>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+    <title>My awesome App!</title>
+      
+    <style type="text/css">
+      
+        
+        body {
+            
+            position:relative;
+        }
+      
+         .jumbotron {
+              
+              background-image: url("https://static1.bergfex.com/images/downsized/ee/02a08d09b5e720ee_1050787b6e8b1b6f.jpg");
+            background-size: cover;
+              text-align: center;
+              margin-top: 50px;
+            
+          }
+        
+        .jumbotron h1 {
+            
+            font-size:450%;
+            float:none;
+            
+        }
+        
+       
+        
+        .input-group{
+            
+            margin:0 auto;
+        }
+        
+       #footer {
+              
+              background-color: #7CBBFF;
+              padding-top: 20px;
+              margin-top: 20px;
+              text-align: center;
+                 padding-bottom: 0px;
+        height:300px}
+        
+         #appSummary {
+              
+              text-align: center;
+              margin-top:50px;
+              margin-bottom: 50px;
+            }
+        
+        
+        #appStoreIcon{
+            
+            width:10%
+        }
+                 
+             
+               
+    </style>
+      
+  </head>
+    
+  <body data-spy="scroll" data-target="#navbar">
+      
+      
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+          <a class="navbar-brand" href="#">MyApp</a>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="#jumbotron">home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Download the App</a>
+            </li>
+
+          </ul>
+
+            <form class="form-inline ">
+
+            <input class="form-control mr-sm-2" type="email" placeholder="Email" >
+
+            <input class="form-control mr-sm-2" type="password" placeholder="Password" >
+
+            <button class="btn btn-success my-2 my-sm-0" type="submit">Login</button>
+
+            </form>
+        </nav>
+        <div data-spy="scroll" data-target="#navbar-example2" data-offset="60">
+
+
+        <div class="jumbotron jumbotron-fluid" id="jumbotron">
+              <h1 class="display-4 font-weight-normal">My Awesome App!</h1>
+              <p class="lead">This is why YOU should download this fantastic app!</p>
+              <hr class="my-4">
+              <p>Want to know more? Join our mailing list!</p>
+              <form class="form-inline ">
+
+                   <div class="input-group ">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">@</div>
+                </div>
+                    <input class="form-control mr-sm-2" type="email" placeholder="Email" >
+
+                <button class=" btn btn-primary my-2 my-sm-0" type="submit">Sign Up!</button>
+                </div>
+            </form>
 
 
 
+        </div>
+    
+        <div id="container">
+            
+            
+        <div id="appSummary">
+          
+            <h1>Why This App Is Awesome</h1>
+            
+            <p class="lead">Summary, once again, of your app's awesomeness</p>
+          
+          </div>
+    
+    
+        </div>
+            
+         <div class="container" id="about">
+    <div class="row">
+        <div class="col-md-4 col-xs-6">
+            <div class="card h-100">
+                <img class="card-img-top img-fluid" src="https://farm7.staticflickr.com/6211/6229865985_0c165a100c_z.jpg" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title">Card title</h4>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-xs-6">
+            <div class="card h-100">
+                <img class="card-img-top img-fluid" src="https://farm7.staticflickr.com/6211/6229865985_0c165a100c_z.jpg" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title">Card title</h4>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-xs-6">
+            <div class="card h-100">
+                <img class="card-img-top img-fluid" src="https://farm7.staticflickr.com/6211/6229865985_0c165a100c_z.jpg" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title">Card title</h4>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+             </div>
+               
+                
+            
+            
+            
+            
+          
+            </div>
+            
+            <div id="footer">
+            
+            
+            <h2>Download the app!</h2>
+            
+            <p class="lead">Really, why should I download this app??</p>
+            
+            <p><a href=""><img id="appStoreIcon" src="https://www.isport360.com/wp-content/uploads/2017/01/appstore-icon-mobile-retina.png"></a></p>
+            
+            
+            </div>
+  
+</div>
+      
+      
+    
 
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+      
+  </body>
 </html>
