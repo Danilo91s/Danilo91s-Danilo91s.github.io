@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio di Ingegneria</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .navbar-brand img {
+            max-width: 50px;
+        }
+        section {
+            padding: 60px 0;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="logo.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#servizi">Servizi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#progetti">Progetti</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#chi-siamo">Chi Siamo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contatti">Contatti</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Servizi -->
+    <section id="servizi">
+        <div class="container">
+            <h2 class="text-center">I Nostri Servizi</h2>
+            <p class="text-center">Offriamo una vasta gamma di servizi di ingegneria per soddisfare ogni vostra esigenza.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Servizio 1</h3>
+                    <p>Descrizione del servizio 1.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Servizio 2</h3>
+                    <p>Descrizione del servizio 2.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Servizio 3</h3>
+                    <p>Descrizione del servizio 3.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Progetti -->
+    <section id="progetti" class="bg-light">
+        <div class="container">
+            <h2 class="text-center">I Nostri Progetti</h2>
+            <p class="text-center">Ecco alcuni dei progetti che abbiamo realizzato.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Progetto 1</h3>
+                    <p>Descrizione del progetto 1.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Progetto 2</h3>
+                    <p>Descrizione del progetto 2.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Progetto 3</h3>
+                    <p>Descrizione del progetto 3.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chi Siamo -->
+    <section id="chi-siamo">
+        <div class="container">
+            <h2 class="text-center">Chi Siamo</h2>
+            <p class="text-center">Conosci il nostro team di esperti ingegneri.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Ingegnere 1</h3>
+                    <p>Biografia dell'ingegnere 1.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Ingegnere 2</h3>
+                    <p>Biografia dell'ingegnere 2.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Ingegnere 3</h3>
+                    <p>Biografia dell'ingegnere 3.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contatti -->
+    <section id="contatti" class="bg-light">
+        <div class="container">
+            <h2 class="text-center">Contattaci</h2>
+            <p class="text-center">Compila il modulo sottostante per metterti in contatto con noi.</p>
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" class="form-control" id="name" placeholder="Il tuo nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="La tua email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Messaggio</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Il tuo messaggio"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Invia</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
