@@ -3,38 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Studio di Ingegneria</title>
+    <title>La Mia Attività Professionale</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    <nav class="navbar">
+    <!-- Header -->
+    <header class="bg-primary text-white text-center py-3">
         <div class="container">
-            <a href="#" class="logo">Logo</a>
-            <ul class="nav-links">
-                <li><a href="#servizi">Servizi</a></li>
-                <li><a href="#progetti">Progetti</a></li>
-                <li><a href="#chi-siamo">Chi Siamo</a></li>
-                <li><a href="#contatti">Contatti</a></li>
-            </ul>
+            <h1 class="display-4">La Mia Attività</h1>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand text-white" href="#">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link text-white" href="#servizi">Servizi</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#chi-siamo">Chi Siamo</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#contatti">Contatti</a></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-    </nav>
+    </header>
 
-    <section id="servizi">
+    <!-- Hero Section -->
+    <section class="jumbotron text-center">
         <div class="container">
-            <div class="tile">
-                <img src="immagine_servizio1.jpg" alt="Servizio 1">
-                <p>Descrizione del servizio 1</p>
-            </div>
-            <!-- Ripeti per altri servizi -->
+            <h1 class="jumbotron-heading">Benvenuti nella Mia Attività</h1>
+            <p class="lead text-muted">Offriamo servizi di alta qualità per soddisfare le vostre esigenze.</p>
         </div>
     </section>
 
-    <!-- Ripeti per altre sezioni: Progetti, Chi Siamo, Contatti -->
-
-    <footer>
+    <!-- Servizi Section -->
+    <section id="servizi" class="py-5">
         <div class="container">
-            <p>© 2024 Studio di Ingegneria</p>
+            <h2 class="text-center">I Nostri Servizi</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Servizio 1</h5>
+                            <p class="card-text">Descrizione del servizio 1.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Servizio 2</h5>
+                            <p class="card-text">Descrizione del servizio 2.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Servizio 3</h5>
+                            <p class="card-text">Descrizione del servizio 3.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chi Siamo Section -->
+    <section id="chi-siamo" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Chi Siamo</h2>
+            <p class="text-center">Breve descrizione della tua attività e del tuo team.</p>
+        </div>
+    </section>
+
+    <!-- Form di Contatto Section -->
+    <section id="contatti" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Contattaci</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" class="form-control" id="name" placeholder="Il tuo nome">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="La tua email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Messaggio</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Il tuo messaggio"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Invia</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 La Mia Attività. Tutti i diritti riservati.</p>
+            <p>
+                <a href="#" class="text-white">Privacy Policy</a> |
+                <a href="#" class="text-white">Termini di servizio</a>
+            </p>
         </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
